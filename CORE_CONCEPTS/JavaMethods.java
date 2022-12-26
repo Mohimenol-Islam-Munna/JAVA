@@ -1,15 +1,16 @@
 public class JavaMethods {
-
-    static String myName(String name) {
-        return name;
-    }
-
     public static void main(String[] args) {
         System.out.println("My name is " + myName("munna"));
 
         System.out.println("Student Information :: " + student("ifti", 10, "eight", "madrasa"));
 
         System.out.println("Student Information :: " + student());
+
+        System.out.println("Sum with recusion :: " + sum(4));
+    }
+
+    static String myName(String name) {
+        return name;
     }
 
     // Method Overloading ::
@@ -25,5 +26,13 @@ public class JavaMethods {
 
     static String student() {
         return "method overloading of student method";
+    }
+
+    // recursion
+    static int sum(int num) {
+        if (num > 0) {
+            return num + sum(num - 1);
+        }
+        return 0;
     }
 }
