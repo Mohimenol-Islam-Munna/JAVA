@@ -26,7 +26,7 @@ public class JavaArray {
             System.out.printf("Array item :: %d \n", item);
         }
 
-        // multi dimensional array
+        // multi dimensinal array
         int[][] mNum = { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 } };
 
         // access item of multi dimensional array

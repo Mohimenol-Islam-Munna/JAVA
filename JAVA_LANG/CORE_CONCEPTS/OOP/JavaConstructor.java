@@ -6,9 +6,9 @@ public class JavaConstructor {
     boolean isTrue;
 
     public JavaConstructor(int id, String name, boolean isTrue) {
-        this.id = id;
-        this.name = name;
-        this.isTrue = isTrue;
+        id = id;
+        name = name;
+        isTrue = isTrue;
     }
 
     public static void main(String[] args) {

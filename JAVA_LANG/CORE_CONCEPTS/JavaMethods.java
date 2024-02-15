@@ -6,7 +6,7 @@ public class JavaMethods {
 
         System.out.println("Student Information :: " + student());
 
-        System.out.println("Sum with recursion :: " + sum(4));
+        System.out.println("Sum with recusion :: " + sum(4));
     }
 
     static String myName(String name) {
