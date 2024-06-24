@@ -1,6 +1,6 @@
-package june24.dataTypes;
+package june24.DataTypes;
 
-public class DataTypes {
+public class Main {
 
     // primitives types
     private byte byteType = 127;
@@ -25,7 +25,7 @@ public class DataTypes {
     private String stringType2 = "Munna";
 
    public static void main(String[] args){
-       DataTypes dataTypes = new DataTypes();
+       Main dataTypes = new Main();
 
        System.out.println("java data types :" + dataTypes.floatType);
 
