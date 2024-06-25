@@ -1,4 +1,4 @@
-package june24.TypeCasting;
+package June24.TypeCasting;
 
 public class Parent {
     public String name;

@@ -1,4 +1,4 @@
-package june24;
+package June24;
 
 public class Main {
     public static void main(String[] args){

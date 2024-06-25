@@ -1,4 +1,4 @@
-package june24.DataTypes;
+package June24.DataTypes;
 
 public class Main {
 
